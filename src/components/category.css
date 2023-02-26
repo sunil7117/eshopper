@@ -1,0 +1,11 @@
+.categoryWrapper {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  border: 1px solid red;
+  font-size: 1.3rem;
+}
+.categoryIcon {
+  font-size: 0.8rem;
+  margin-left: auto;
+}
