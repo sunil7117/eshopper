@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .topbar {
+    padding: 10px 70px;
+  }
+  .topbarleft {
+    display: flex;
+  }
+  .topbarright {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 1200px) {
+}

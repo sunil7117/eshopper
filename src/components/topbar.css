@@ -1,0 +1,21 @@
+.topbar {
+  background-color: #edf1ff;
+  display: flex;
+  padding: 10px;
+}
+.topbarleft {
+  flex: 1;
+  display: flex;
+  display: none;
+  gap: 15px;
+}
+.topbarleft > li {
+  cursor: pointer;
+}
+.topbarright {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 10px;
+}

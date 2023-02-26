@@ -1,0 +1,14 @@
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+.search > input {
+  width: 99%;
+  border: none;
+  outline: none;
+}
+.searchIcons {
+  border-left: 1px solid red;
+  padding: 8px;
+}
