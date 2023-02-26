@@ -1,0 +1,16 @@
+.cart {
+  display: flex;
+  gap: 5px;
+}
+.cartWrapper {
+  padding: 8px;
+  gap: 10px;
+  border: 1px solid red;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  cursor: pointer;
+}
+.cartIcons {
+  color: #d19c97;
+}
