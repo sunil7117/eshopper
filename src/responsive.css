@@ -1,11 +1,25 @@
+@media (max-width: 575px) {
+  .topbarleft {
+    display: none;
+  }
+  .topbarright {
+    justify-content: center;
+  }
+}
 @media (min-width: 576px) {
+  .topbarleft {
+    display: none;
+  }
+  .topbarright {
+    justify-content: center;
+  }
 }
 @media (min-width: 768px) {
+  .topbar {
+    background-color: red;
+  }
 }
 @media (min-width: 992px) {
-  .topbar {
-    padding: 10px 70px;
-  }
   .topbarleft {
     display: flex;
   }

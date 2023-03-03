@@ -1,0 +1,60 @@
+.humburge {
+  display: none;
+  margin-left: auto;
+}
+.menus {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.menusWrapper {
+  background-color: blue;
+  padding: 0px 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.menuleft {
+  flex: 2;
+}
+.menulist {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menuitem {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  background-color: red;
+  padding: 5px 10px;
+  align-items: center;
+}
+.menuitem:hover > .dropdownmenu {
+  display: block;
+}
+.menuicons {
+  font-size: 0.7rem;
+}
+.dropdownmenu {
+  display: none;
+  width: 144px;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  border: 1px solid red;
+}
+.dropdownmenuitem {
+  align-items: center;
+  padding: 8px 10px;
+}
+.dropdownmenuitem:hover {
+  background-color: #f8f9fa;
+}
+.menuright {
+  flex: 1;
+}
+.auth {
+  justify-content: flex-end;
+}
